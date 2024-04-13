@@ -494,7 +494,7 @@ header .links li:hover a {
 .popup-box span {
   position: absolute;
   top: -15px;
-  right: -15px;
+  right: 5px;
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -505,6 +505,11 @@ header .links li:hover a {
   align-items: center;
   font-size: 18px;
   cursor: pointer;
+}
+@media (max-width: 767px) {
+  .popup-box {
+    width: 100%;
+  }
 }
 /* End Our Gallery */
 /* Start Testing */
